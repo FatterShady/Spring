@@ -1,0 +1,30 @@
+![image-20220303110229875](C:\Users\MateBook\AppData\Roaming\Typora\typora-user-images\image-20220303110229875.png)
+
+
+
+创建Bean(通过构造器创建 bean 实例（无参数构造）)
+
+给Bean赋值(为 bean 的属性设置值和对其他 bean 引用（调用 set 方法）)
+
+实例化Bean：
+
+​					 InvokeAwareMethod()
+
+​				     调用BeanPostProcessor
+
+​					 调用BeanPostProcessorsBeforeInitialization
+
+ 					调用invokeInitMethods
+
+​					 调用applyBeanPostProcessorsAfterInitialization
+
+​					 使用bean
+
+​                     容器关闭 destory()
+
+
+
+
+
+
+
